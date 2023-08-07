@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#beige{
+    background-color: #F9ECE6;
+    height: 3em; 
+    align-self: center;   
+}
+.hero_pink{
+    background-color: #F89CAB;
+    height: 100vh;
+    
+}
+
+#grids{
+    height: 100vh;display: flex;justify-content: center;
+}
+.gridprods{
+    height: 100vh;
+    width: 80vw;margin-left: 20%;
+    margin: 10px;
+    display: grid;
+    grid-template-rows: repeat(2,4fr);
+    grid-template-columns: repeat(4,1fr);row-gap: 10px;column-gap: 10px;
+}
+.cell_a{
+    background-color: #EEEEEE;
+    padding: 12px;
+}
+.cell_a img{
+    height: 200px;
+    width: 50%;
+}
+.product_img{
+    display: flex;justify-content: center;margin-bottom: 20px;
+}
+
+.topBanner{
+    background-color: white;
+    display: inline;border-radius: 50%;padding: 8px;
+}
+
+.demo{
+    height: 40vh;display: flex;justify-content: center;align-items: center;
+}
+#elems{
+    height: 100px;
+    
+}
+#bricks{
+    height: 12em;
+}
+.card{
+    background-color: #F9F8F7;
+    padding: 10px;
+}
+#map{
+    width: 120%;
+}
+form{
+    height: auto;margin-top: 150px; 
+}
+/* #arows{
+    height: 20%;width:100%;
+} */
